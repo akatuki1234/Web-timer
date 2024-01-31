@@ -1,0 +1,186 @@
+.timer {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(139, 173, 235);
+  background-image: url( ./yozora1.png );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -30px;
+
+}
+
+.hour,
+.minutes,
+.secounds {
+  display: flex;
+  width: 200px;
+}
+
+.hour > *,
+.minutes > *,
+.secounds > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: inherit;
+  /* background-color: rgb(139, 173, 235); */
+  font-size: 4rem;
+  box-sizing: border-box;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(85, 164, 238);
+}
+
+/* .number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: inherit;
+  background-color: rgb(139, 173, 235);
+  font-size: 4rem;
+  box-sizing: border-box;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(85, 164, 238);
+} */
+
+
+.space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(139, 173, 235); */
+  font-size: 4rem;
+  box-sizing: border-box;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(85, 164, 238);
+}
+
+.timer_setting_menu_closed {
+  display: none;
+  background-color: skyblue;
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  top: 22%;
+}
+
+.timer_setting_menu_open {
+  display: block;
+  background-color: skyblue;
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  top: 22%;
+}
+
+.timer__button {
+  width: 100%;
+  height: 20%;
+  background-color: rgb(153, 221, 248);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.timer__button > button {
+  width: 150px;
+  height: 50px;
+  border-radius: 5%;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.container__menu__item__contents__timer__task__number {
+  margin: 20px 0;
+}
+
+
+.container__menu__item__contents__timer__task__number--checkitem {
+  width: 10%;
+  background-color: rgb(126, 125, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__menu__item__contents__timer__task__number--checkitem > input {
+  width: 20px;
+  height: 20px;
+}
+
+.container__menu__item__contents__timer__task__number--content {
+  width: 90%;
+  background-color: rgb(158, 157, 157);
+  display: flex;
+  align-items: center;
+}
+
+.container__menu__item__contents__timer__task__number--content > textarea {
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+  background-color: rgb(175, 175, 175);
+  padding: 10px;
+  color: white;
+}
+
+.container__menu__item__contents__timer__task__number {
+  display: flex;
+  padding: 15px;
+  background-color: #ffd8d8;
+}
+
+.container__menu__item__title {
+  width: 100%;
+  height: inherit;
+}
+
+.container__menu__item__title__visible {
+  width: 100%;
+  height: 50px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__menu__item__title__visible > h2 {
+  font-size: 2.5rem;
+}
+
+.container__menu__item__title__timer {
+  width: 100%;
+  height: 130px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__menu__item__title__timer > h2 {
+  border: 1px solid black;
+  writing-mode: vertical-lr;
+}
+
+.container__menu__item__title__music {
+  width: 100%;
+  height: 170px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__menu__item__title__music > h2   {
+  border: 1px solid black;
+  writing-mode: vertical-lr;
+}

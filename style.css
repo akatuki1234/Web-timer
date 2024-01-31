@@ -1,0 +1,66 @@
+/* @font-face {
+  font-family: "夜もすがら";
+  src: url(./yosugara.ttf);
+} */
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "夜もすがら";
+  font-size: 1.5rem;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #316EB7, #abcef8, white);
+}
+
+.container__background {
+  width: 100%;
+  height: 100vh;
+}
+
+.container__menu {
+  width: 40%;
+  height: 100vh;
+  background-color: #eeeeee;
+  position: absolute;
+  top: 0;
+  display: flex;
+}
+
+.container__menu__item__contents {
+  width: 90%;
+  height: inherit;
+  background-color: rgb(156, 156, 156);
+  position: relative;
+  top: 0;
+}
+
+.container__menu__item__contents__timer {
+  width: 100%;
+  height: inherit;
+}
+
+.container__menu__item__contents__timer__counttimer {
+  width: inherit;
+  height: 40%;
+  background-color: rgb(206, 206, 206);
+}
+
+.container__menu__item__contents__timer__task {
+  width: inherit;
+  height: 60%;
+  background-color: rgb(187, 187, 187)
+}
+
+.container__menu__item__title {
+  width: 10%;
+  height: inherit;
+  background-color: rgb(107, 107, 107);
+  position: relative;
+}
